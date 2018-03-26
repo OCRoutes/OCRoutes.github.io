@@ -3,39 +3,65 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* Profile picture */
+.profile {
+  border-radius: 230px;
+}
+
+.pad-top {
+  padding-top: 65px;
+}
+
 /* Type edits*/
-h1 { font-weight : 700 !important; font-size : 55px !important;}
+h1 { font-weight : 300 !important; font-size : 50px !important;}
+h4 { font-weight : 400 !important; font-size : 25px !important;}
 
 /* Colours */
 .white {
 	color: white;
 }
-.desc {
-	font-weight: 700;
+
+.red {
+  color: #EE1A2C;
 }
 
-/* Full screen section*/
-.main-section {
-	width: 100%;
-  	height: 100%;
-  	padding: 50px 0;
-  	display: table;
-  	background: #EE1A2C; /* fallback for old browsers */
+/* Font weights */
+.heavy {
+  font-weight: 700 !important;
 }
 
+.medium {
+  font-weight: 400 !important;
+}
+
+.light {
+  font-weight: 300 !important;
+}
+
+/* Sections*/
 .section {
-  	height: 100%;
-  	padding: 50px 0;
-  	display: table;
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-color: #EE1A2C;
+  background-image: -webkit-linear-gradient(90deg, #FFFFFF 40%, #EE1A2C 40%);
+}
+
+.team-section {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align : center;
+  background-color: #FFFFFF;
 }
 
 /* Section wraps */
 .wrapper {
 	height: 100%;
 	padding: 50px;
-  	vertical-align: middle;
+  vertical-align: middle;
 	text-align: center;
-  	display: table-cell;
+  display: table-cell;
 }
 
 /* Navbar edits */
@@ -46,8 +72,8 @@ h1 { font-weight : 700 !important; font-size : 55px !important;}
 .navbar {
 	margin-bottom: 0 !important;
 	-webkit-border-radius: 0 !important;
-    -moz-border-radius: 0 !important;
-    border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
 }
 
 .navbar-style {
@@ -75,6 +101,6 @@ h1 { font-weight : 700 !important; font-size : 55px !important;}
 }
 
 .navbar .navbar-nav a:hover {
- 	color: #F0F0F0;
- 	background-color: transparent !important;
+ 	color: #DBDBDB;
+  background-color: transparent !important;
 }
