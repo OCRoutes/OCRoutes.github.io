@@ -3,13 +3,23 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* Button designs */
+.btn-dl {
+  color: white !important;
+  display: inline-block !important;
+  padding: 15px 20px 15px !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  background-color: rgba(238, 26, 44, 0.7) !important;
+}
+
 /* Profile picture */
 .profile {
   border-radius: 230px;
 }
 
 .pad-top {
-  padding-top: 65px;
+  padding-top: 45px;
 }
 
 /* Type edits*/
